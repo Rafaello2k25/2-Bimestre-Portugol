@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro decada = 10
+		inteiro horas = 24
+		inteiro minutos = 60
+		inteiro resultado = 24 * 10 * 60
+		cadeia resposta 
+		
+		escreva("Você sabe quantos minutos tem um ano?")
+			leia(resposta)
+			
+		se(resposta == "não"){
+			escreva("Um ano tem ",resultado, " minutos")
+		}
+		senao{
+			escreva("Parabéns :(")
+		}
+	}
+}
