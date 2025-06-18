@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro quantidade_choco
+
+		escreva("Quantos chocolates você pretende comer na vida?") 
+ 			leia(quantidade_choco)
+
+ 		se(quantidade_choco <= 1000){
+ 			escreva("Chocolate é muito bom")
+ 		}senao{
+ 			escreva("Ce vai morer (Faustão)")
+ 		}
+	}
+}
