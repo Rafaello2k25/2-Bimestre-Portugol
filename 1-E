@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro ano = 365
+		inteiro dia = 24
+		inteiro minuto = 60
+		inteiro hora = 60 
+		inteiro segundo = 977000000
+		inteiro resultado = segundo / minuto / hora / dia / ano 
+
+		escreva("se vocẽ tem 977000000 segundos de vida, vocẽ tem ", resultado, " anos")
+	}
+}
