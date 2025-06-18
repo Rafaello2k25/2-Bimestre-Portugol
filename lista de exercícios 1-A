@@ -1,0 +1,13 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro ano = 365
+		inteiro horas = 24
+		inteiro resultado = 365 * 24
+
+		escreva("em um ano tem ", resultado, " segundos")
+		
+	}
+}
