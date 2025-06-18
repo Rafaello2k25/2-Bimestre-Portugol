@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro idade 
+		inteiro minutos = 60
+		inteiro horas = 24
+		inteiro segundos = 60
+		inteiro ano = 365
+		
+		escreva("Qual a sua idade?")
+			leia(idade)
+
+		inteiro resultado = idade * horas * minutos * segundos * ano 
+
+		escreva("sua idade em minutos é ", resultado)
+	}
+}
